@@ -1,6 +1,5 @@
 
-export default function Header() {
-  const name = "Oscar"
+export default function Header({ cart }) {
   return (
     <>
       <header className="py-5 header">
